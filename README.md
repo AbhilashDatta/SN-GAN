@@ -3,7 +3,7 @@ Spectrally Normalized Generative Adversarial Networks (SN-GAN)
 
 ## Spectral Norm
 
-Notationally, the spectral norm of a matrix $W$ is typically represented as $\sigma(W)$. For neural network purposes, this $W$ matrix represents a weight matrix in one of the network's layers. The spectral norm of a matrix is the matrix's largest singular value, which can be obtained via singular value decomposition (SVD).
+A weight normalization technique to stabilize the training of the discriminator, as proposed in [Spectral Normalization for Generative Adversarial Networks](https://arxiv.org/abs/1802.05957) (Miyato et al. 2018).
 
 ## A Bit of History on Spectral Normalization
 
